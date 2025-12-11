@@ -1,0 +1,5 @@
+{
+  "name": "HawkStack Clone",
+  "description": "Pixel-perfect recreation of HawkStack UI using React, Tailwind, and Framer Motion.",
+  "requestFramePermissions": []
+}

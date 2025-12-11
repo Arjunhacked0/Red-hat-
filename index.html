@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Red hat </title>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'hawk-bg': '#030305',
+            'hawk-card': '#0F1014',
+            'hawk-red': '#EE0000',
+            'hawk-blue': '#4F46E5',
+            'hawk-purple': '#7C3AED',
+            'text-secondary': '#9CA3AF',
+            // Hero Specific Colors
+            'hero-blue': '#4A6CF7',
+            'hero-purple': '#9A4DFF',
+            'hero-pink': '#FF3E6C',
+            'hero-text': '#C8C8D0',
+            'stat-blue': '#A6B7FF',
+            'stat-red': '#FF4141',
+            'stat-green': '#2AFF6B',
+            'stat-label': '#B0B0C0',
+            'btn-primary-text': '#FFFFFF',
+            'btn-secondary-text': '#E4E4E4',
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Poppins', 'sans-serif'],
+          },
+          backgroundImage: {
+            'hero-gradient': 'radial-gradient(circle at 50% 0%, #1a1a2e 0%, #030305 60%)',
+            'glass': 'linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 100%)',
+            'card-gradient': 'linear-gradient(145deg, #111116 0%, #0a0a0c 100%)',
+            'primary-gradient': 'linear-gradient(90deg, #3B82F6 0%, #6366F1 100%)',
+            'text-gradient': 'linear-gradient(90deg, #A855F7 0%, #EC4899 100%)',
+            'red-gradient': 'linear-gradient(135deg, #EF4444 0%, #B91C1C 100%)',
+          },
+          boxShadow: {
+            'glow': '0 0 20px rgba(79, 70, 229, 0.3)',
+            'glow-red': '0 0 20px rgba(239, 68, 68, 0.2)',
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      background-color: #030305;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #030305;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #333;
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #555;
+    }
+  </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.1/",
+    "react": "https://esm.sh/react@^19.2.1",
+    "framer-motion": "https://esm.sh/framer-motion@^12.23.26",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.1/"
+  }
+}
+</script>
+
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
