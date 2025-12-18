@@ -254,7 +254,8 @@ If this helped you, please give the repo a **star** ⭐ to support future projec
 
 ## 👨‍💻 Author
 
-**Vinay Kumar Mahato**
+**Arjun Sahani
+**
 Java Full‑Stack Developer | React | Spring Boot | MySQL | Educator
 
 ---
